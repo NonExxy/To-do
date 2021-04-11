@@ -1,0 +1,61 @@
+/*Remember to put 'sass --watch scss:css' from the terminal while in this directory*/
+i{
+    cursor: pointer;
+}
+#inputs{
+    align-self: baseline;
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    background-color: gray;
+    #bid1{
+        display: flex;
+    }
+    i{
+        margin-left: 1.5em;
+        color: white;
+    }
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.listBox{
+    background-color: whitesmoke;
+    border: 4px solid gray;
+    border-radius: 2em;
+    margin: 4em;
+}
+.listItem{
+    display: flex;
+    border: 3px solid gray;
+    border-radius: 1em;
+    margin: 2em;
+    margin-left: .25em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.submitList{
+    cursor: pointer;
+}
+.submitItem{
+    cursor: pointer;
+}
+.editBar{
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.itemBar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.listBar{
+    @extend .itemBar;
+    margin-top: 1em;
+}
+ul{
+    list-style-type: none;
+}
